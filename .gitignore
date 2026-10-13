@@ -1,0 +1,9 @@
+# FOLDERS
+.vscode/
+
+# ENVIRONMENT
+.venv/
+.env
+
+# CACHE
+DS_STORE

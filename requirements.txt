@@ -1,0 +1,26 @@
+# --- Core ---
+torch>=2.4.0
+transformers>=4.46.0
+accelerate>=1.0.0
+datasets>=2.20.0
+
+# --- QLoRA stack ---
+peft>=0.13.2
+trl>=0.12.0
+bitsandbytes>=0.44.1
+
+# --- Tokenization / misc ---
+sentencepiece>=0.2.0
+protobuf>=4.25.0
+einops>=0.8.0
+scipy>=1.13.0
+
+# --- Logging / tracking (optional but recommended) ---
+tensorboard>=2.17.0
+wandb>=0.17.0
+
+# --- Optional, faster attention kernel (build from source / needs CUDA toolkit) ---
+# flash-attn>=2.6.3 --no-build-isolation
+
+# --- MCP side of PenSwifting (tool server) ---
+mcp>=1.0.0
